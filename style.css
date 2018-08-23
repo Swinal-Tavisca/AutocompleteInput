@@ -1,0 +1,53 @@
+body {
+    margin: auto;
+	background-color: blanchedalmond; 
+    width: 50%; 
+	padding-top: 100px;
+}
+.drop
+{
+    margin-left: auto;
+}
+ul
+{  width: 300px;
+    background-color: blanchedalmond;
+} 
+li 
+{ 
+    width: 300px;
+	list-style-type: none; 
+}
+li:hover 
+{ 
+	background-color: burlywood; 
+} 
+
+input 
+{ 
+	width: 350px; 
+	height: 20px;   
+}
+input:focus{
+    border: none;
+}
+span
+{ 
+	position: relative; 
+	top: 2px; 
+	width: 50px; 
+	padding-bottom: 1px; 
+	background-color: blanchedalmond; 
+}
+.dropli
+{ 
+    width: 350px;
+	background-color: blanchedalmond;  
+    max-height: 100px;
+    overflow-y:scroll; 
+    overflow-x: hidden;
+}
+h1 
+{ 
+    padding-left:80px; 
+	color: firebrick; 
+}
