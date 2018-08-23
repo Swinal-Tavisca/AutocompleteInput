@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>AUTOCOMPLETE</title>
+			<link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+			<script src="homeScript.js"></script>
+	</head>
+	<body onclick="OnBodyClick()"> 
+        <div class="boxMargin" onclick="OnBodyClick()"> 
+            <h1>
+                SERCH NAMES 
+            </h1>
+            <div class="inputFormat">
+                <input type="text" id="name" onkeyup="enterdata(event)">
+                <span onclick="clearText()">&#10060;</span>
+            </div>         
+                <div id="drop" class="suggest"> 
+                </div> 
+
+        </div> 
+
+    </body>
+    
+</html>
